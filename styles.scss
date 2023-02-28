@@ -221,6 +221,7 @@ header {
 		gap: 2px;
 		justify-content: center;
 		margin-top: 20px;
+		margin-bottom: 20px;
 		width: 80%;
 		img {
 			padding: 0;
@@ -228,10 +229,7 @@ header {
 		}
 		.big-image {
 			margin: 0 auto;
-			max-width: 54.4%;
-			opacity: 0.8;
-			transition-duration: 0.3s;
-			transition-property: opacity;
+			max-width: 51%;
 
 			.big-image-left {
 				display: flex;
@@ -240,31 +238,30 @@ header {
 			}
 
 			&:hover {
-				opacity: 1;
+				opacity: 0.9;
 			}
 		}
 
 		.right-images {
 			display: flex;
-			max-width: 50%;
-			width: 50%;
+			max-width: 49.2%;
 		}
 
 		.images {
 			
 			.img-gallery {
-				opacity: 0.8;
 				padding: 0 2px 2px;
 				transition-duration: 0.2s;
 				transition-property: opacity;
 
 				&:hover {
-					opacity: 1;
+					opacity: 0.9;
 				}
 			}
 
 			.right-bottom-image {
 				border-bottom-right-radius: 10px;
+				display: flex;
 			}
 
 			.right-top-image {
